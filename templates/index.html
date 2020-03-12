@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Video Music Remover</title>
+  <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <nav>
+        <h1>Video Music Remover</h1>
+    </nav>
+    <section class="center-align">
+      <div class="card">
+        <div class="card-content">
+          <form id="video-form" onsubmit="return handleSubmit">
+            <button class="file-button waves-effect waves-light btn-large indigo">
+              <input name="video" type="file" />
+              Select your file
+            </button>
+            <button type="submit" class="waves-effect waves-light red btn">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section>
+      <span id="loading-container"></span>
+      <div id="output" class="output">
+        <video width="320" height="240" controls id="output-video">
+      </div>
+    </section>
+  </div>
+  
+  <script src="//code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="static/js/main.js"></script>
+</body>
+
+</html>
