@@ -23,7 +23,7 @@ sseclient
 asn1crypto==1.0.1
 crypto==1.4.1
 cryptography==2.7
-jwcrypto==0.6.0
+jwcrypto==1.4
 pycrypto==2.6.1
 requests-toolbelt==0.9.1
 ffprobe
